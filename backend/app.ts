@@ -11,6 +11,7 @@ import dotenv from "dotenv";
 export const app = express();
 const apiDocuments = YAML.load("./api-docs.yaml");
 
+//applying Middileware
 dotenv.config()
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(apiDocuments));
 app.use(cookieParser());
@@ -19,3 +20,5 @@ app.use(cors());
 app.use(fileUpload());
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+
+//Rutes
