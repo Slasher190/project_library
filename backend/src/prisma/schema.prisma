@@ -1,0 +1,182 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Phone {
+  id           String         @id @default(auto()) @map("_id") @db.ObjectId
+  phone_number String
+  user         User?          @relation(fields: [userId], references: [id])
+  userId       String?        @db.ObjectId
+  Student      Student[]
+  BranchWorker BranchWorker[]
+}
+
+model Avatar {
+  id            String         @id @default(auto()) @map("_id") @db.ObjectId
+  cloudinary_id String
+  url           String
+  user          User[] // Many avatars can belong to a single user
+  Branch        Branch[]
+  OrderList     OrderList[]
+  BranchWorker  BranchWorker[]
+}
+
+model User {
+  id            String   @id @default(auto()) @map("_id") @db.ObjectId
+  email         String   @unique
+  first_name    String
+  middile_name  String?
+  last_name     String
+  phone_numbers Phone[] // Array of phones associated with a single user
+  avatar        Avatar?  @relation(fields: [avatarId], references: [id])
+  avatarId      String?  @db.ObjectId
+  password      String
+  role          Role     @default(STUDENT)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  // Other fields
+}
+
+model Location {
+  id        String  @id @default(auto()) @map("_id") @db.ObjectId
+  latitude  String
+  longitude String
+  branch    Branch?
+}
+
+model Address {
+  id             String         @id @default(auto()) @map("_id") @db.ObjectId
+  house_flat     String
+  village_colony String
+  city           String
+  Student        Student[]
+  BranchWorker   BranchWorker[]
+}
+
+model Plan {
+  id        String    @id @default(auto()) @map("_id") @db.ObjectId
+  plan_name String
+  Student   Student[]
+}
+
+model Membership {
+  id              String    @id @default(auto()) @map("_id") @db.ObjectId
+  membership_name String
+  Student         Student[]
+}
+
+model Stream {
+  id          String    @id @default(auto()) @map("_id") @db.ObjectId
+  stream_name String
+  Student     Student[]
+}
+
+model Seat {
+  id          String    @id @default(auto()) @map("_id") @db.ObjectId
+  seat_number Int
+  seat_type   String
+  student     Student[]
+  Order       Order[]
+}
+
+model OrderList {
+  id       String  @id @default(auto()) @map("_id") @db.ObjectId
+  menu     String
+  price    Int
+  image    Avatar  @relation(fields: [avatarId], references: [id])
+  Order    Order?  @relation(fields: [orderId], references: [id])
+  orderId  String? @db.ObjectId
+  avatarId String  @db.ObjectId
+}
+
+model Order {
+  id        String      @id @default(auto()) @map("_id") @db.ObjectId
+  seat      Seat        @relation(fields: [seatId], references: [id])
+  branch    Branch      @relation(fields: [branchId], references: [id])
+  orders    OrderList[]
+  seatId    String      @db.ObjectId
+  branchId  String      @db.ObjectId
+  Student   Student?    @relation(fields: [studentId], references: [id])
+  studentId String?     @db.ObjectId
+  createdAt DateTime    @default(now())
+}
+
+model Payment {
+  id             String    @id @default(auto()) @map("_id") @db.ObjectId
+  transaction_id String
+  payement_mode  String
+  timestamp      DateTime  @default(now())
+  Student        Student[]
+}
+
+model Student {
+  id             String     @id @default(auto()) @map("_id") @db.ObjectId
+  guardian_name  String
+  guardian_phone Phone?     @relation(fields: [gPhoneId], references: [id])
+  gPhoneId       String?    @db.ObjectId
+  plan           Plan       @relation(fields: [planId], references: [id])
+  planId         String     @db.ObjectId
+  membershi_plan Membership @relation(fields: [membershipId], references: [id])
+  membershipId   String     @db.ObjectId
+  stream         Stream     @relation(fields: [streamId], references: [id])
+  streamId       String     @db.ObjectId
+  address        Address    @relation(fields: [addressId], references: [id])
+  addressId      String     @db.ObjectId
+  seat           Seat       @relation(fields: [seatId], references: [id])
+  seatId         String     @db.ObjectId
+  orders         Order[]
+  payment        Payment    @relation(fields: [paymentId], references: [id])
+  paymentId      String     @db.ObjectId
+}
+
+model BranchSeatInfo {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  tot_seat     Int
+  remain_seat  Int
+  tot_half_day Int
+  tot_full_day Int
+  Branch       Branch[]
+}
+
+model BranchWorker {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  worker_type String
+  phone       Phone    @relation(fields: [phoneId], references: [id])
+  address     Address  @relation(fields: [addressId], references: [id])
+  image       Avatar   @relation(fields: [avatarId], references: [id])
+  phoneId     String   @db.ObjectId
+  addressId   String   @db.ObjectId
+  avatarId    String   @db.ObjectId
+  Branch      Branch[]
+}
+
+model Branch {
+  id               String         @id @default(auto()) @map("_id") @db.ObjectId
+  branch_images    Avatar         @relation(fields: [avatarId], references: [id])
+  avatarId         String         @db.ObjectId
+  location         Location?      @relation(fields: [locationId], references: [id])
+  locationId       String?        @unique
+  BRANCH_ADMIN     BRANCH_ADMIN[]
+  Order            Order[]
+  branchSeatInfo   BranchSeatInfo @relation(fields: [branchSeatInfoId], references: [id])
+  branchSeatInfoId String         @db.ObjectId
+  branch_worker    BranchWorker   @relation(fields: [branchWorkerId], references: [id])
+  branchWorkerId   String         @db.ObjectId
+}
+
+model BRANCH_ADMIN {
+  id          String @id @default(auto()) @map("_id") @db.ObjectId
+  branch_name Branch @relation(fields: [branchId], references: [id])
+  branchId    String @db.ObjectId
+}
+
+enum Role {
+  STUDENT
+  BRANCH_ADMIN
+  SUPERADMIN
+}
