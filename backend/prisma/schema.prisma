@@ -175,8 +175,13 @@ model BRANCH_ADMIN {
   branchId    String @db.ObjectId
 }
 
+model RoleType {
+  id        String @id @default(auto()) @map("_id") @db.ObjectId
+  role_type String
+}
+
 enum Role {
   STUDENT
   BRANCH_ADMIN
-  SUPERADMIN
+  SUPER_ADMIN
 }

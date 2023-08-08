@@ -1,8 +1,4 @@
-import {
-  Request,
-  Response,
-  // NextFunction
-} from "express";
+import { Request, Response } from "express";
 
 class ErrorHandler extends Error {
   statusCode: number;
@@ -16,8 +12,8 @@ class ErrorHandler extends Error {
 export const errorMiddleware = (
   err: ErrorHandler,
   req: Request,
-  res: Response
-  //   next: NextFunction
+  res: Response,
+  // next: NextFunction
 ): Response => {
   err.message = err.message || "Internal Server Error";
   err.statusCode = err.statusCode || 500;
