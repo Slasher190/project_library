@@ -1,4 +1,4 @@
-import { Request, Response } from "express";
+import { Request, Response, NextFunction } from "express";
 
 class ErrorHandler extends Error {
   statusCode: number;
@@ -13,15 +13,14 @@ export const errorMiddleware = (
   err: ErrorHandler,
   req: Request,
   res: Response,
-  // next: NextFunction
-): Response => {
+  next: NextFunction
+): void => {
   err.message = err.message || "Internal Server Error";
   err.statusCode = err.statusCode || 500;
 
-  return res.status(err.statusCode).json({
+  res.status(err.statusCode).json({
     success: false,
     message: err.message,
   });
+  next();
 };
-
-export default ErrorHandler;

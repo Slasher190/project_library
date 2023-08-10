@@ -12,7 +12,7 @@ import libraryRoutes from "./src/Routes/libraryRoutes";
 import adminRoutes from "./src/Routes/adminRoutes";
 import studentRoutes from "./src/Routes/studentRoutes";
 import branchRoutes from "./src/Routes/branchRoutes";
-// import { errorMiddleware } from "./src/middleware/errorHandler";
+import { errorMiddleware } from "./src/middleware/errorHandler";
 
 export const app = express();
 const apiDocuments = YAML.load("./api-docs.yaml");
@@ -26,7 +26,7 @@ app.use(cors());
 app.use(fileUpload());
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-// app.use(errorMiddleware);
+app.use(errorMiddleware);
 
 //Rutes
 app.use("/api/v1", userRoutes);
