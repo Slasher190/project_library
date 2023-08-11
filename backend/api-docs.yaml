@@ -1,0 +1,86 @@
+swagger: "2.0"
+info:
+  title: User Registration API
+  version: 1.0.0
+basePath: /api/v1
+schemes:
+  - http
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /createUser:
+    post:
+      summary: Create a new user
+      description: Registers a new user with the provided information
+      parameters:
+        - in: body
+          name: user
+          description: User information for registration
+          required: true
+          schema:
+            $ref: "#/definitions/UserInput"
+      responses:
+        "201":
+          description: User registered successfully
+          schema:
+            $ref: "#/definitions/UserResponse"
+        "400":
+          description: Bad request
+definitions:
+  UserInput:
+    type: object
+    properties:
+      email:
+        type: string
+      first_name:
+        type: string
+      middle_name:
+        type: string
+      last_name:
+        type: string
+      phone_numbers:
+        type: array
+        items:
+          type: string
+      password:
+        type: string
+      role_type:
+        type: string
+      avatarId:
+        type: string
+  UserResponse:
+    type: object
+    properties:
+      id:
+        type: string
+      email:
+        type: string
+      first_name:
+        type: string
+      middle_name:
+        type: string
+      last_name:
+        type: string
+      phone_numbers:
+        type: array
+        items:
+          type: string
+      role_type:
+        $ref: "#/definitions/RoleType"
+      avatarId:
+        type: string
+      createdAt:
+        type: string
+        format: date-time
+      updatedAt:
+        type: string
+        format: date-time
+  RoleType:
+    type: object
+    properties:
+      id:
+        type: string
+      role_type:
+        type: string

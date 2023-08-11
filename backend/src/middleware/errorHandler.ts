@@ -14,13 +14,15 @@ export const errorMiddleware = (
   req: Request,
   res: Response,
   next: NextFunction
-): void => {
+): Response => {
   err.message = err.message || "Internal Server Error";
   err.statusCode = err.statusCode || 500;
 
-  res.status(err.statusCode).json({
+  return res.status(err.statusCode).json({
     success: false,
     message: err.message,
   });
   next();
 };
+
+export default ErrorHandler;

@@ -10,7 +10,7 @@ datasource db {
 
 model Phone {
   id           String         @id @default(auto()) @map("_id") @db.ObjectId
-  phone_number String
+  phone_number String         @unique
   user         User?          @relation(fields: [userId], references: [id])
   userId       String?        @db.ObjectId
   Student      Student[]
@@ -21,23 +21,24 @@ model Avatar {
   id            String         @id @default(auto()) @map("_id") @db.ObjectId
   cloudinary_id String
   url           String
-  user          User[] // Many avatars can belong to a single user
   Branch        Branch[]
   OrderList     OrderList[]
   BranchWorker  BranchWorker[]
+  // User          User?          @relation(fields: [userId], references: [id])
+  // userId        String?        @db.ObjectId
 }
 
 model User {
   id            String   @id @default(auto()) @map("_id") @db.ObjectId
   email         String   @unique
   first_name    String
-  middile_name  String?
+  middle_name   String?
   last_name     String
   phone_numbers Phone[] // Array of phones associated with a single user
-  avatar        Avatar?  @relation(fields: [avatarId], references: [id])
-  avatarId      String?  @db.ObjectId
+  // avatar        Avatar[]
   password      String
-  role          Role     @default(STUDENT)
+  role_type     RoleType @relation(fields: [roleTypeId], references: [id])
+  roleTypeId    String   @db.ObjectId
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
   // Other fields
@@ -179,10 +180,11 @@ model BRANCH_ADMIN {
 model RoleType {
   id        String @id @default(auto()) @map("_id") @db.ObjectId
   role_type String
+  User      User[]
 }
 
-enum Role {
-  STUDENT
-  BRANCH_ADMIN
-  SUPER_ADMIN
-}
+// enum Role {
+//   STUDENT
+//   BRANCH_ADMIN
+//   SUPER_ADMIN
+// }
