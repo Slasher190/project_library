@@ -116,10 +116,14 @@ export const createUser = async (req: Request, res: Response, next: Next) => {
           // avatarUrls: uploadedResults.map((result) => result.url),
         },
       });
-      sendCookie(User, res, "Registered Successfully", 201);
+      // User.url = avatar_.url;
+      const userWithUrl = {
+        ...User,
+        url: avatar_?.url,
+      };
+      sendCookie(userWithUrl, res, "Registered Successfully", 201);
       // res.status(201).json(User);
     }
-    // next(new ErrorHandler("Please provide avatar", 400));
   } catch (error) {
     next(error);
   }
@@ -220,8 +224,15 @@ export const login = async (req: Request, res: Response, next: Next) => {
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch)
       return next(new ErrorHandler("Invalid Username or Password", 400));
+    const avatar = await prisma.avatar.findUnique({
+      where: { id: user.avatarId },
+    });
+    const userWithUrl = {
+      ...user,
+      url: avatar?.url,
+    };
     sendCookie(
-      user,
+      userWithUrl,
       res,
       `Welcome back, ${user?.first_name} ${user?.middle_name} ${user?.last_name}`,
       200

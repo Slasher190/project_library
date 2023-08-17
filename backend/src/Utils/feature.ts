@@ -10,6 +10,7 @@ export const sendCookie = (
     middle_name: string | null;
     last_name: string;
     roleTypeId: string;
+    url: string | undefined;
     createdAt: Date;
     updatedAt: Date;
   },
@@ -26,6 +27,7 @@ export const sendCookie = (
     middle_name: user.middle_name ? user.middle_name : "",
     last_name: user.last_name,
     roleTypeId: user.roleTypeId,
+    url: user.url,
     createdAt: user.createdAt,
     updatedAt: user.updatedAt,
   };
