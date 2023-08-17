@@ -1,56 +1,65 @@
 swagger: "2.0"
 info:
-  title: User Registration API
-  version: 1.0.0
+  title: User API
+  description: API to manage user registration
+  version: "1.0.0"
 basePath: /api/v1
 schemes:
   - http
-consumes:
-  - application/json
 produces:
   - application/json
+consumes:
+  - multipart/form-data
+
 paths:
   /createUser:
     post:
       summary: Create a new user
-      description: Registers a new user with the provided information
+      description: Registers a new user with provided details
       parameters:
-        - in: body
-          name: user
-          description: User information for registration
+        - in: formData
+          name: email
+          type: string
           required: true
-          schema:
-            $ref: "#/definitions/UserInput"
+        - in: formData
+          name: first_name
+          type: string
+          required: true
+        - in: formData
+          name: middle_name
+          type: string
+        - in: formData
+          name: last_name
+          type: string
+          required: true
+        - in: formData
+          name: phone_numbers
+          type: array
+          items:
+            type: string
+          required: true
+        - in: formData
+          name: password
+          type: string
+          required: true
+        - in: formData
+          name: role_type
+          type: string
+          required: true
+        - in: formData
+          name: avatar
+          type: file
       responses:
-        "201":
-          description: User registered successfully
+        201:
+          description: User created successfully
           schema:
-            $ref: "#/definitions/UserResponse"
-        "400":
+            $ref: "#/definitions/User"
+        400:
           description: Bad request
+        500:
+          description: Internal server error
 definitions:
-  UserInput:
-    type: object
-    properties:
-      email:
-        type: string
-      first_name:
-        type: string
-      middle_name:
-        type: string
-      last_name:
-        type: string
-      phone_numbers:
-        type: array
-        items:
-          type: string
-      password:
-        type: string
-      role_type:
-        type: string
-      avatarId:
-        type: string
-  UserResponse:
+  User:
     type: object
     properties:
       id:
@@ -68,19 +77,9 @@ definitions:
         items:
           type: string
       role_type:
-        $ref: "#/definitions/RoleType"
-      avatarId:
-        type: string
-      createdAt:
-        type: string
-        format: date-time
-      updatedAt:
-        type: string
-        format: date-time
-  RoleType:
-    type: object
-    properties:
-      id:
-        type: string
-      role_type:
-        type: string
+        type: object
+        properties:
+          id:
+            type: string
+          role_type:
+            type: string

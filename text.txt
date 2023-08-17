@@ -1,0 +1,500 @@
+   54  python -u "d:\code\dino.py"
+   55   /usr/bin/env C:\\Users\\sudhi\\AppData\\Local\\Programs\\Python\\Python38\\python.exe c:\\Users\\sudhi\\.vscode\\extensions\\ms-python.python-2020.8.109390\\pythonFiles\\lib\\python\\debugpy\\launcher 58120 -- d:\\code\\dino.py 
+   56  git clone https://github.com/arc298/instagram-scraper.git
+   57  cd instagram-scraper
+   58  ls
+   59  python setup.py install
+   60  instagram-scraper sharmaji_ak_ -u slasher_editx -p 8821Sudhi@
+   61  git clone https://github.com/arc298/instagram-scraper.git
+   62  git clone https://github.com/MicrosoftDocs/ml-basics.git
+   63  jupyter notebook
+   64  jupyter notebook
+   65  free -h
+   66  exit
+   67  git clone https://github.com/juancarlospaco/pyvoicechanger.git
+   68  git clone 
+   69  ls
+   70  cd Coloring-greyscale-images
+   71  ls
+   72  cd GAN-version
+   73  ls
+   74  python3 colorize_base.py
+   75  su python3 colorize_base.py
+   76  python3 colorize_base.py --user
+   77  jupyter notebook
+   78  jupyter notebook
+   79  instagram-scraper i_anusingh_ -u slasher_editx -p 8821Sudhi@
+   80  code array.cpp
+   81  git clone https://github.com/tesseract-ocr/tesseract.git
+   82  ls
+   83  pip install -r requirements.txt
+   84  ls
+   85  python scripts.py
+   86  python script.py
+   87  code script.py
+   88  ls
+   89  readme.txt -r
+   90  open readme.txt
+   91  nano readme.txt
+   92  python script.py
+   93  code script.py
+   94  python script.py
+   95  pip install tesseract
+   96  pip install --upgrade pip
+   97  pip install --upgrade pip --user
+   98  pip install tesseract
+   99  python script.py
+  100  pip install pytesseract
+  101  python script.py
+  102  pip install pytesseract
+  103  python script.py
+  104  python script.py
+  105  python script.py
+  106  code script.py
+  107  python3 script.py
+  108  python3 script.py --user
+  109  sudo python3 script.py
+  110  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\OpenCV\code\ch1.py"
+  111  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\OpenCV\code\tempCodeRunnerFile.py"
+  112  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\OpenCV\code\ch2.py"
+  113  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\OpenCV\code\ch2.py"
+  114  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\OpenCV\code\ch2.py"
+  115  code
+  116  git clone https://github.com/hotwired/hotwire-rails-demo-chat.git
+  117  cd hotwire-rails-demo-chat
+  118  ls
+  119  ./bin/setup
+  120  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\tempCodeRunnerFile.py"
+  121  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\tempCodeRunnerFile.py"
+  122  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\tempCodeRunnerFile.py"
+  123  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\tempCodeRunnerFile.py"
+  124  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\tempCodeRunnerFile.py"
+  125  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\tempCodeRunnerFile.py"
+  126  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\tempCodeRunnerFile.py"
+  127  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\tempCodeRunnerFile.py"
+  128  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\tempCodeRunnerFile.py"
+  129  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\tempCodeRunnerFile.py"
+  130  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\tempCodeRunnerFile.py"
+  131  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\tempCodeRunnerFile.py"
+  132  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\tempCodeRunnerFile.py"
+  133  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\tempCodeRunnerFile.py"
+  134  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\tempCodeRunnerFile.py"
+  135  ls
+  136  python nancy_ai.py
+  137  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\nancy_ai.py"
+  138  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\nancy_ai.py"
+  139  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\nancy_ai.py"
+  140  python -u "c:\Users\sudhi\OneDrive\Documents\Projects\project__Aisha\nancy_ai.py"
+  141  imagine "a house in the forest"
+  142  pip3 install deep-daze
+  143  imagine
+  144  cuda
+  145  nvidia-smi
+  146  nvcc -V
+  147  ./bandwidthTest
+  148  python
+  149  ps -aux
+  150  ps -au
+  151  ps -a
+  152  cd Downloads/Documents/GIT
+  153  cd Downloads
+  154  cd Documents
+  155  cd GIT
+  156  ls
+  157  cd ..
+  158  cd GIT
+  159  ls
+  160  cd script
+  161  ls
+  162  cd byob
+  163  ls
+  164  cd web-gui
+  165  ls
+  166  chmod 700 +x startup.sh
+  167  chmod 700 startup.sh
+  168  ls
+  169  bash startup.sh
+  170  cd ..
+  171  ls
+  172  cd byob
+  173  ls
+  174  g++ "c:\Users\sudhi\test.cpp" -o a && ./a.exe
+  175  g++ "c:\Users\sudhi\test.cpp" -o a && ./a.exe
+  176  g++ "c:\Users\sudhi\test.cpp" -o a && ./a.exe
+  177  g++ "c:\Users\sudhi\test.cpp" -o a && ./a.exe
+  178  g++ "c:\Users\sudhi\test.cpp" -o a && ./a.exe
+  179  g++ "c:\Users\sudhi\test.cpp" -o a && ./a.exe
+  180  g++ "c:\Users\sudhi\test.cpp" -o a && ./a.exe
+  181  g++ "c:\Users\sudhi\test.cpp" -o a && ./a.exe
+  182  g++ "c:\Users\sudhi\test.cpp" -o a && ./a.exe
+  183  g++ "c:\Users\sudhi\test.cpp" -o a && ./a.exe
+  184  iwconfig
+  185  ifconfig
+  186  exitr
+  187  exit
+  188  cd ..
+  189  cd deep_lean
+  190  ls
+  191  cd deep_learn
+  192  ls
+  193  cd emotion
+  194  ls
+  195  python emotion.py
+  196  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/test.py
+  197  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/test.py
+  198  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/test.py
+  199  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  200  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  201  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  202  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/test.py
+  203  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  204  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  205  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  206  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  207  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  208  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  209  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  210  :/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  211  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  212  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  213  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  214  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  215  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  216  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  217  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  218  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  219  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  220  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  221  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/emotion.py
+  222  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe
+  223  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/test.py
+  224  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/test.py
+  225  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/test.py
+  226  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/test.py
+  227  pip install tensorflow-gpu
+  228  pip install tensorflow-gpu --user
+  229  exit
+  230  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/test.py
+  231  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/test.py
+  232  exit
+  233  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/test.py
+  234  C:/Users/sudhi/AppData/Local/Programs/Python/Python38/python.exe c:/Users/sudhi/Downloads/GAMES/deep_learn/emotion/test.py
+  235  exit
+  236  exit
+  237  cd Downloads/GAMES/
+  238  ls
+  239  mkdir projects ; cd projects
+  240  python -m venv kivy_tut
+  241  ls
+  242  source kivy_tut/Scripts/activate
+  243  clear
+  244  pip freeze
+  245  pip --version
+  246  pip -m install upgrade pip
+  247  clear
+  248  python -m pip install "kivy[base] @ https://github.com/kivy/kivy/archive/master.zip"
+  249  pip install kivy[full]
+  250  pip install --upgrade pip
+  251  python -m pip install kivy_deps.gstreamer==0.1.*
+  252  python -m pip install kivy_deps.gstreamer
+  253  python -m pip install --upgrade kivy_deps.gstreamer
+  254  pip freeze
+  255  python hello.py
+  256  cd Downloads
+  257  ls
+  258  cd GAMES
+  259  ls
+  260  cd website
+  261  ls
+  262  mkdir test_git ; cd test_git
+  263  git clone https://github.com/PartheshSoni/emotion-based-music-player.git
+  264  git clone  https://github.com/PartheshSoni/emotion-based-music-player.git
+  265  cd emotion-based-music-player
+  266  ls
+  267  cd images
+  268  ls
+  269  cd ..
+  270  ls
+  271  python display.py
+  272  ls
+  273  cd WD_INNOVTIVE
+  274  cd WD_INNOVATIVE
+  275  ls
+  276  cd images/
+  277  ls
+  278  cd ..
+  279  ls l
+  280  ls -l
+  281  ls images/
+  282  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  283  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  284  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  285  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  286  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  287  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  288  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  289  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  290  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  291  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  292  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  293  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  294  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  295  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  296  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  297  node wcat.js file.txt
+  298  node wcat.js /file.txt
+  299  node wcat.js /file.txt
+  300  node wcat.js file.txt
+  301  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  302  node wcat.js file.txt
+  303  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  304  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  305  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  306  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  307  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  308  clear
+  309  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  310  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  311  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  312  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  313  clear
+  314  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  315  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  316  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  317  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  318  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  319  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  320  node wcat.js file.txt
+  321  node wcat.js file.txt
+  322  node wcat.js file.txt
+  323  node wcat.js file.txt
+  324  node wcat.js file.txt
+  325  pwd
+  326  node wcat.js file.txt
+  327  node wcat.js file.txt
+  328  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  329  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  330  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  331  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  332  node wcat.js file.txt
+  333  node wcat file.txt
+  334  node wcat.js file.txt
+  335  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\display.js"
+  336  ls
+  337  cd wcat
+  338  ls
+  339  node wcat.js file.txt
+  340  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\wcat.js"
+  341  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\wcat.js"
+  342  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\wcat.js"
+  343  node "c:\Users\sudhi\Downloads\GAMES\tutorials\web_developments\wcat\wcat.js"
+  344  node wcat.js file.txt
+  345  node wcat.js file.txt
+  346  touch file2.txt file3.txt file4.txt
+  347  node wcat.js file2.txt file3.txt file4.txt
+  348  node wcat.js file1.txt file2.txt file3.txt file4.txt
+  349  node wcat.js file1.txt file2.txt file3.txt file4.txt
+  350  node wcat.js file1.txt file2.txt file3.txt file4.txt
+  351  node wcat.js file1.txt file2.txt file3.txt file4.txt
+  352  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  353  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  354  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  355  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  356  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  357  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  358  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  359  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  360  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  361  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  362  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  363  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  364  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  365  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  366  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  367  git init
+  368  git --help
+  369  git add .
+  370  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  371  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  372  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  373  node wcat.js -s file1.txt file2.txt file3.txt file4.txt
+  374  node wcat.js -s -n file1.txt file2.txt file3.txt file4.txt
+  375  node wcat.js -s -n file1.txt file2.txt file3.txt file4.txt
+  376  node wcat.js -s -n file1.txt file2.txt file3.txt file4.txt
+  377  node wcat.js -s -n file1.txt file2.txt file3.txt file4.txt
+  378  node wcat.js -s -n file1.txt file2.txt file3.txt file4.txt
+  379  node wcat.js -s -b file1.txt file2.txt file3.txt file4.txt
+  380  node wcat.js file1.txt file2.txt > file5.txt
+  381  node wcat.js file1.txt file2.txt >> file5.txt
+  382  node wcat.js file1.txt file2.txt >> file5.txt --user
+  383  node wcat.js file1.txt file2.txt >> file5.txt --user
+  384  git commit
+  385  
+  386  ssh-keygen -t ed25519 -C "sudhigupta190@gmail.com"
+  387  eval "$(ssh-agent -s)"
+  388  ssh-add ~/.ssh/id_ed25519
+  389  cat ~/.ssh/id_ed25519.pub
+  390  #!/usr/bin/env bash
+  391  # Licensed to the Apache Software Foundation (ASF) under one or more
+  392  # contributor license agreements.  See the NOTICE file distributed with
+  393  # this work for additional information regarding copyright ownership.
+  394  # The ASF licenses this file to You under the Apache License, Version 2.0
+  395  # (the "License"); you may not use this file except in compliance with
+  396  # the License.  You may obtain a copy of the License at
+  397  #
+  398  #     http://www.apache.org/licenses/LICENSE-2.0
+  399  #
+  400  # Unless required by applicable law or agreed to in writing, software
+  401  # distributed under the License is distributed on an "AS IS" BASIS,
+  402  # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  403  # See the License for the specific language governing permissions and
+  404  # limitations under the License.
+  405  #
+  406  # If this scripted is run out of /usr/bin or some other system bin directory
+  407  # it should be linked to and not copied. Things like java jar files are found
+  408  # relative to the canonical path of this script.
+  409  #
+  410  # use POSIX interface, symlink is followed automatically
+  411  ZOOBIN="${BASH_SOURCE-$0}"
+  412  ZOOBIN="$(dirname "${ZOOBIN}")"
+  413  ZOOBINDIR="$(cd "${ZOOBIN}"; pwd)"
+  414  if [ -e "$ZOOBIN/../libexec/zkEnv.sh" ]; then   . "$ZOOBINDIR"/../libexec/zkEnv.sh; else   . "$ZOOBINDIR"/zkEnv.sh; fi
+  415  # See the following page for extensive details on setting
+  416  # up the JVM to accept JMX remote management:
+  417  # http://java.sun.com/javase/6/docs/technotes/guides/management/agent.html
+  418  # by default we allow local JMX connections
+  419  if [ "x$JMXLOCALONLY" = "x" ]; then     JMXLOCALONLY=false; fi
+  420  if [ "x$JMXDISABLE" = "x" ] || [ "$JMXDISABLE" = 'false' ]; then   echo "ZooKeeper JMX enabled by default" >&2;   if [ "x$JMXPORT" = "x" ];   then     ZOOMAIN="-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.local.only=$JMXLOCALONLY org.apache.zookeeper.server.quorum.QuorumPeerMain";   else     if [ "x$JMXAUTH" = "x" ];     then       JMXAUTH=false;     fi;     if [ "x$JMXSSL" = "x" ];     then       JMXSSL=false;     fi;     if [ "x$JMXLOG4J" = "x" ];     then       JMXLOG4J=true;     fi;     echo "ZooKeeper remote JMX Port set to $JMXPORT" >&2;     echo "ZooKeeper remote JMX authenticate set to $JMXAUTH" >&2;     echo "ZooKeeper remote JMX ssl set to $JMXSSL" >&2;     echo "ZooKeeper remote JMX log4j set to $JMXLOG4J" >&2;     if [ "x$JMXHOSTNAME" = "x" ];     then       ZOOMAIN="-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=$JMXPORT -Dcom.sun.management.jmxremote.authenticate=$JMXAUTH -Dcom.sun.management.jmxremote.ssl=$JMXSSL -Dzookeeper.jmx.log4j.disable=$JMXLOG4J org.apache.zookeeper.server.quorum.QuorumPeerMain";     else       echo "ZooKeeper remote JMX Hostname set to $JMXHOSTNAME" >&2;       ZOOMAIN="-Dcom.sun.management.jmxremote -Djava.rmi.server.hostname=$JMXHOSTNAME -Dcom.sun.management.jmxremote.port=$JMXPORT -Dcom.sun.management.jmxremote.authenticate=$JMXAUTH -Dcom.sun.management.jmxremote.ssl=$JMXSSL -Dzookeeper.jmx.log4j.disable=$JMXLOG4J org.apache.zookeeper.server.quorum.QuorumPeerMain";     fi;   fi; else     echo "JMX disabled by user request" >&2;     ZOOMAIN="org.apache.zookeeper.server.quorum.QuorumPeerMain"; fi
+  421  if [ "x$SERVER_JVMFLAGS" != "x" ]; then     JVMFLAGS="$SERVER_JVMFLAGS $JVMFLAGS"; fi
+  422  if [ "x$2" != "x" ]; then     ZOOCFG="$ZOOCFGDIR/$2"; fi
+  423  # if we give a more complicated path to the config, don't screw around in $ZOOCFGDIR
+  424  if [ "x$(dirname "$ZOOCFG")" != "x$ZOOCFGDIR" ]; then     ZOOCFG="$2"; fi
+  425  if $cygwin; then     ZOOCFG=`cygpath -wp "$ZOOCFG"`     KILL=/bin/kill; else     KILL=kill; fi
+  426  echo "Using config: $ZOOCFG" >&2
+  427  case "$OSTYPE" in *solaris*)   GREP=/usr/xpg4/bin/grep;   ;; *)   GREP=grep;   ;; esac
+  428  ZOO_DATADIR="$($GREP "^[[:space:]]*dataDir" "$ZOOCFG" | sed -e 's/.*=//')"
+  429  ZOO_DATADIR="$(echo -e "${ZOO_DATADIR}" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+  430  ZOO_DATALOGDIR="$($GREP "^[[:space:]]*dataLogDir" "$ZOOCFG" | sed -e 's/.*=//')"
+  431  # iff autocreate is turned off and the datadirs don't exist fail
+  432  # immediately as we can't create the PID file, etc..., anyway.
+  433  if [ -n "$ZOO_DATADIR_AUTOCREATE_DISABLE" ]; then     if [ ! -d "$ZOO_DATADIR/version-2" ]; then         echo "ZooKeeper data directory is missing at $ZOO_DATADIR fix the path or run initialize";         exit 1;     fi;      if [ -n "$ZOO_DATALOGDIR" ] && [ ! -d "$ZOO_DATALOGDIR/version-2" ]; then         echo "ZooKeeper txnlog directory is missing at $ZOO_DATALOGDIR fix the path or run initialize";         exit 1;     fi;     ZOO_DATADIR_AUTOCREATE="-Dzookeeper.datadir.autocreate=false"; fi
+  434  if [ -z "$ZOOPIDFILE" ]; then     if [ ! -d "$ZOO_DATADIR" ]; then         mkdir -p "$ZOO_DATADIR";     fi;     ZOOPIDFILE="$ZOO_DATADIR/zookeeper_server.pid"; else     mkdir -p "$(dirname "$ZOOPIDFILE")"; fi
+  435  if [ ! -w "$ZOO_LOG_DIR" ] ; then mkdir -p "$ZOO_LOG_DIR"; fi
+  436  ZOO_LOG_FILE=zookeeper-$USER-server-$HOSTNAME.log
+  437  _ZOO_DAEMON_OUT="$ZOO_LOG_DIR/zookeeper-$USER-server-$HOSTNAME.out"
+  438  case $1 in start)     echo  -n "Starting zookeeper ... ";     if [ -f "$ZOOPIDFILE" ]; then       if kill -0 `cat "$ZOOPIDFILE"` > /dev/null 2>&1; then          echo $command already running as process `cat "$ZOOPIDFILE"`.;          exit 1;       fi;     fi;     nohup "$JAVA" $ZOO_DATADIR_AUTOCREATE "-Dzookeeper.log.dir=${ZOO_LOG_DIR}"     "-Dzookeeper.log.file=${ZOO_LOG_FILE}" "-Dzookeeper.root.logger=${ZOO_LOG4J_PROP}"     -XX:+HeapDumpOnOutOfMemoryError -XX:OnOutOfMemoryError='kill -9 %p'     -cp "$CLASSPATH" $JVMFLAGS $ZOOMAIN "$ZOOCFG" > "$_ZOO_DAEMON_OUT" 2>&1 < /dev/null &     if [ $? -eq 0 ];     then       case "$OSTYPE" in       *solaris*)         /bin/echo "${!}\\c" > "$ZOOPIDFILE";         ;;       *)         /bin/echo -n $! > "$ZOOPIDFILE";         ;;       esac;       if [ $? -eq 0 ];       then         sleep 1;         pid=$(cat "${ZOOPIDFILE}");         if ps -p "${pid}" > /dev/null 2>&1; then           echo STARTED;         else           echo FAILED TO START;           exit 1;         fi;       else         echo FAILED TO WRITE PID;         exit 1;       fi;     else       echo SERVER DID NOT START;       exit 1;     fi;     ;; start-foreground);     ZOO_CMD=(exec "$JAVA");     if [ "${ZOO_NOEXEC}" != "" ]; then       ZOO_CMD=("$JAVA");     fi;     "${ZOO_CMD[@]}" $ZOO_DATADIR_AUTOCREATE "-Dzookeeper.log.dir=${ZOO_LOG_DIR}"     "-Dzookeeper.log.file=${ZOO_LOG_FILE}" "-Dzookeeper.root.logger=${ZOO_LOG4J_PROP}"     -XX:+HeapDumpOnOutOfMemoryError -XX:OnOutOfMemoryError='kill -9 %p'     -cp "$CLASSPATH" $JVMFLAGS $ZOOMAIN "$ZOOCFG";     ;; print-cmd);     echo "\"$JAVA\" $ZOO_DATADIR_AUTOCREATE -Dzookeeper.log.dir=\"${ZOO_LOG_DIR}\" \
+  439      -Dzookeeper.log.file=\"${ZOO_LOG_FILE}\" -Dzookeeper.root.logger=\"${ZOO_LOG4J_PROP}\" \
+  440      -XX:+HeapDumpOnOutOfMemoryError -XX:OnOutOfMemoryError='kill -9 %p' \
+  441      -cp \"$CLASSPATH\" $JVMFLAGS $ZOOMAIN \"$ZOOCFG\" > \"$_ZOO_DAEMON_OUT\" 2>&1 < /dev/null";     ;; stop);     echo -n "Stopping zookeeper ... ";     if [ ! -f "$ZOOPIDFILE" ];     then       echo "no zookeeper to stop (could not find file $ZOOPIDFILE)";     else       $KILL $(cat "$ZOOPIDFILE");       rm "$ZOOPIDFILE";       sleep 1;       echo STOPPED;     fi;     exit 0;     ;; version);     ZOOMAIN=org.apache.zookeeper.version.VersionInfoMain;     $JAVA -cp "$CLASSPATH" $ZOOMAIN 2> /dev/null;     ;; restart);     shift;     "$0" stop ${@};     sleep 3;     "$0" start ${@};     ;; status)     isSSL="false";     clientPortAddress=`$GREP "^[[:space:]]*clientPortAddress[^[:alpha:]]" "$ZOOCFG" | sed -e 's/.*=//'`;     if ! [ $clientPortAddress ];     then 	      clientPortAddress="localhost";     fi;     clientPort=`$GREP "^[[:space:]]*clientPort[^[:alpha:]]" "$ZOOCFG" | sed -e 's/.*=//'`;     if ! [[ "$clientPort"  =~ ^[0-9]+$ ]];     then       dataDir=`$GREP "^[[:space:]]*dataDir" "$ZOOCFG" | sed -e 's/.*=//'`;       myid=`cat "$dataDir/myid" 2> /dev/null`;       if ! [[ "$myid" =~ ^[0-9]+$ ]] ; then         echo "myid could not be determined, will not able to locate clientPort in the server configs.";       else         clientPortAndAddress=`$GREP "^[[:space:]]*server.$myid=.*;.*" "$ZOOCFG" | sed -e 's/.*=//' | sed -e 's/.*;//'`;         if [ ! "$clientPortAndAddress" ] ; then           echo "Client port not found in static config file. Looking in dynamic config file.";           dynamicConfigFile=`$GREP "^[[:space:]]*dynamicConfigFile" "$ZOOCFG" | sed -e 's/.*=//'`;           clientPortAndAddress=`$GREP "^[[:space:]]*server.$myid=.*;.*" "$dynamicConfigFile" | sed -e 's/.*=//' | sed -e 's/.*;//'`;         fi;         if [ ! "$clientPortAndAddress" ] ; then           echo "Client port not found in the server configs";         else           if [[ "$clientPortAndAddress" =~ ^.*:[0-9]+ ]] ; then             if [[ "$clientPortAndAddress" =~ \[.*\]:[0-9]+ ]] ; then               clientPortAddress=`echo "$clientPortAndAddress" | sed -e 's|\[||' | sed -e 's|\]:.*||'`;             else               clientPortAddress=`echo "$clientPortAndAddress" | sed -e 's/:.*//'`;             fi;           fi;           clientPort=`echo "$clientPortAndAddress" | sed -e 's/.*://'`;         fi;       fi;     fi;     if [ ! "$clientPort" ] ; then       echo "Client port not found. Looking for secureClientPort in the static config.";       secureClientPort=`$GREP "^[[:space:]]*secureClientPort[^[:alpha:]]" "$ZOOCFG" | sed -e 's/.*=//'`;       if [ "$secureClientPort" ] ; then         isSSL="true";         clientPort=$secureClientPort;         clientPortAddress=`$GREP "^[[:space:]]*secureClientPortAddress[^[:alpha:]]" "$ZOOCFG" | sed -e 's/.*=//'`;         if ! [ $clientPortAddress ];         then             clientPortAddress="localhost";         fi;       else         echo "Unable to find either secure or unsecure client port in any configs. Terminating.";         exit 1;       fi;     fi;     echo "Client port found: $clientPort. Client address: $clientPortAddress. Client SSL: $isSSL.";     STAT=`"$JAVA" "-Dzookeeper.log.dir=${ZOO_LOG_DIR}" "-Dzookeeper.root.logger=${ZOO_LOG4J_PROP}" "-Dzookeeper.log.file=${ZOO_LOG_FILE}" \
+  442            -cp "$CLASSPATH" $CLIENT_JVMFLAGS $JVMFLAGS org.apache.zookeeper.client.FourLetterWordMain \
+  443            $clientPortAddress $clientPort srvr $isSSL 2> /dev/null    \
+  444            | $GREP Mode`;     if [ "x$STAT" = "x" ];     then       if [ "$isSSL" = "true" ] ; then         echo " ";         echo "Note: We used secureClientPort ($secureClientPort) to establish connection, but we failed. The 'status'";         echo "  command establishes a client connection to the server to execute diagnostic commands. Please make sure you";         echo "  provided all the Client SSL connection related parameters in the CLIENT_JVMFLAGS environment variable! E.g.:";         echo "  CLIENT_JVMFLAGS=\"-Dzookeeper.clientCnxnSocket=org.apache.zookeeper.ClientCnxnSocketNetty";         echo "  -Dzookeeper.ssl.trustStore.location=/tmp/clienttrust.jks -Dzookeeper.ssl.trustStore.password=password";         echo "  -Dzookeeper.ssl.keyStore.location=/tmp/client.jks -Dzookeeper.ssl.keyStore.password=password";         echo "  -Dzookeeper.client.secure=true\" ./zkServer.sh status";         echo " ";       fi;       echo "Error contacting service. It is probably not running.";       exit 1;     else       echo $STAT;       exit 0;     fi;     ;; *);     echo "Usage: $0 [--config <conf-dir>] {start|start-foreground|stop|version|restart|status|print-cmd}" >&2;  esac
+  445  #!/usr/bin/env bash
+  446  # Licensed to the Apache Software Foundation (ASF) under one or more
+  447  # contributor license agreements.  See the NOTICE file distributed with
+  448  # this work for additional information regarding copyright ownership.
+  449  # The ASF licenses this file to You under the Apache License, Version 2.0
+  450  # (the "License"); you may not use this file except in compliance with
+  451  # the License.  You may obtain a copy of the License at
+  452  #
+  453  #     http://www.apache.org/licenses/LICENSE-2.0
+  454  #
+  455  # Unless required by applicable law or agreed to in writing, software
+  456  # distributed under the License is distributed on an "AS IS" BASIS,
+  457  # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  458  # See the License for the specific language governing permissions and
+  459  # limitations under the License.
+  460  #
+  461  # If this scripted is run out of /usr/bin or some other system bin directory
+  462  # it should be linked to and not copied. Things like java jar files are found
+  463  # relative to the canonical path of this script.
+  464  #
+  465  # use POSIX interface, symlink is followed automatically
+  466  ZOOBIN="${BASH_SOURCE-$0}"
+  467  ZOOBIN="$(dirname "${ZOOBIN}")"
+  468  ZOOBINDIR="$(cd "${ZOOBIN}"; pwd)"
+  469  if [ -e "$ZOOBIN/../libexec/zkEnv.sh" ]; then   . "$ZOOBINDIR"/../libexec/zkEnv.sh; else   . "$ZOOBINDIR"/zkEnv.sh; fi
+  470  # See the following page for extensive details on setting
+  471  # up the JVM to accept JMX remote management:
+  472  # http://java.sun.com/javase/6/docs/technotes/guides/management/agent.html
+  473  # by default we allow local JMX connections
+  474  if [ "x$JMXLOCALONLY" = "x" ]; then     JMXLOCALONLY=false; fi
+  475  if [ "x$JMXDISABLE" = "x" ] || [ "$JMXDISABLE" = 'false' ]; then   echo "ZooKeeper JMX enabled by default" >&2;   if [ "x$JMXPORT" = "x" ];   then     ZOOMAIN="-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.local.only=$JMXLOCALONLY org.apache.zookeeper.server.quorum.QuorumPeerMain";   else     if [ "x$JMXAUTH" = "x" ];     then       JMXAUTH=false;     fi;     if [ "x$JMXSSL" = "x" ];     then       JMXSSL=false;     fi;     if [ "x$JMXLOG4J" = "x" ];     then       JMXLOG4J=true;     fi;     echo "ZooKeeper remote JMX Port set to $JMXPORT" >&2;     echo "ZooKeeper remote JMX authenticate set to $JMXAUTH" >&2;     echo "ZooKeeper remote JMX ssl set to $JMXSSL" >&2;     echo "ZooKeeper remote JMX log4j set to $JMXLOG4J" >&2;     if [ "x$JMXHOSTNAME" = "x" ];     then       ZOOMAIN="-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=$JMXPORT -Dcom.sun.management.jmxremote.authenticate=$JMXAUTH -Dcom.sun.management.jmxremote.ssl=$JMXSSL -Dzookeeper.jmx.log4j.disable=$JMXLOG4J org.apache.zookeeper.server.quorum.QuorumPeerMain";     else       echo "ZooKeeper remote JMX Hostname set to $JMXHOSTNAME" >&2;       ZOOMAIN="-Dcom.sun.management.jmxremote -Djava.rmi.server.hostname=$JMXHOSTNAME -Dcom.sun.management.jmxremote.port=$JMXPORT -Dcom.sun.management.jmxremote.authenticate=$JMXAUTH -Dcom.sun.management.jmxremote.ssl=$JMXSSL -Dzookeeper.jmx.log4j.disable=$JMXLOG4J org.apache.zookeeper.server.quorum.QuorumPeerMain";     fi;   fi; else     echo "JMX disabled by user request" >&2;     ZOOMAIN="org.apache.zookeeper.server.quorum.QuorumPeerMain"; fi
+  476  if [ "x$SERVER_JVMFLAGS" != "x" ]; then     JVMFLAGS="$SERVER_JVMFLAGS $JVMFLAGS"; fi
+  477  if [ "x$2" != "x" ]; then     ZOOCFG="$ZOOCFGDIR/$2"; fi
+  478  # if we give a more complicated path to the config, don't screw around in $ZOOCFGDIR
+  479  if [ "x$(dirname "$ZOOCFG")" != "x$ZOOCFGDIR" ]; then     ZOOCFG="$2"; fi
+  480  if $cygwin; then     ZOOCFG=`cygpath -wp "$ZOOCFG"`     KILL=/bin/kill; else     KILL=kill; fi
+  481  echo "Using config: $ZOOCFG" >&2
+  482  case "$OSTYPE" in *solaris*)   GREP=/usr/xpg4/bin/grep;   ;; *)   GREP=grep;   ;; esac
+  483  ZOO_DATADIR="$($GREP "^[[:space:]]*dataDir" "$ZOOCFG" | sed -e 's/.*=//')"
+  484  ZOO_DATADIR="$(echo -e "${ZOO_DATADIR}" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+  485  ZOO_DATALOGDIR="$($GREP "^[[:space:]]*dataLogDir" "$ZOOCFG" | sed -e 's/.*=//')"
+  486  # iff autocreate is turned off and the datadirs don't exist fail
+  487  # immediately as we can't create the PID file, etc..., anyway.
+  488  if [ -n "$ZOO_DATADIR_AUTOCREATE_DISABLE" ]; then     if [ ! -d "$ZOO_DATADIR/version-2" ]; then         echo "ZooKeeper data directory is missing at $ZOO_DATADIR fix the path or run initialize";         exit 1;     fi;      if [ -n "$ZOO_DATALOGDIR" ] && [ ! -d "$ZOO_DATALOGDIR/version-2" ]; then         echo "ZooKeeper txnlog directory is missing at $ZOO_DATALOGDIR fix the path or run initialize";         exit 1;     fi;     ZOO_DATADIR_AUTOCREATE="-Dzookeeper.datadir.autocreate=false"; fi
+  489  if [ -z "$ZOOPIDFILE" ]; then     if [ ! -d "$ZOO_DATADIR" ]; then         mkdir -p "$ZOO_DATADIR";     fi;     ZOOPIDFILE="$ZOO_DATADIR/zookeeper_server.pid"; else     mkdir -p "$(dirname "$ZOOPIDFILE")"; fi
+  490  if [ ! -w "$ZOO_LOG_DIR" ] ; then mkdir -p "$ZOO_LOG_DIR"; fi
+  491  ZOO_LOG_FILE=zookeeper-$USER-server-$HOSTNAME.log
+  492  _ZOO_DAEMON_OUT="$ZOO_LOG_DIR/zookeeper-$USER-server-$HOSTNAME.out"
+  493  case $1 in start)     echo  -n "Starting zookeeper ... ";     if [ -f "$ZOOPIDFILE" ]; then       if kill -0 `cat "$ZOOPIDFILE"` > /dev/null 2>&1; then          echo $command already running as process `cat "$ZOOPIDFILE"`.;          exit 1;       fi;     fi;     nohup "$JAVA" $ZOO_DATADIR_AUTOCREATE "-Dzookeeper.log.dir=${ZOO_LOG_DIR}"     "-Dzookeeper.log.file=${ZOO_LOG_FILE}" "-Dzookeeper.root.logger=${ZOO_LOG4J_PROP}"     -XX:+HeapDumpOnOutOfMemoryError -XX:OnOutOfMemoryError='kill -9 %p'     -cp "$CLASSPATH" $JVMFLAGS $ZOOMAIN "$ZOOCFG" > "$_ZOO_DAEMON_OUT" 2>&1 < /dev/null &     if [ $? -eq 0 ];     then       case "$OSTYPE" in       *solaris*)         /bin/echo "${!}\\c" > "$ZOOPIDFILE";         ;;       *)         /bin/echo -n $! > "$ZOOPIDFILE";         ;;       esac;       if [ $? -eq 0 ];       then         sleep 1;         pid=$(cat "${ZOOPIDFILE}");         if ps -p "${pid}" > /dev/null 2>&1; then           echo STARTED;         else           echo FAILED TO START;           exit 1;         fi;       else         echo FAILED TO WRITE PID;         exit 1;       fi;     else       echo SERVER DID NOT START;       exit 1;     fi;     ;; start-foreground);     ZOO_CMD=(exec "$JAVA");     if [ "${ZOO_NOEXEC}" != "" ]; then       ZOO_CMD=("$JAVA");     fi;     "${ZOO_CMD[@]}" $ZOO_DATADIR_AUTOCREATE "-Dzookeeper.log.dir=${ZOO_LOG_DIR}"     "-Dzookeeper.log.file=${ZOO_LOG_FILE}" "-Dzookeeper.root.logger=${ZOO_LOG4J_PROP}"     -XX:+HeapDumpOnOutOfMemoryError -XX:OnOutOfMemoryError='kill -9 %p'     -cp "$CLASSPATH" $JVMFLAGS $ZOOMAIN "$ZOOCFG";     ;; print-cmd);     echo "\"$JAVA\" $ZOO_DATADIR_AUTOCREATE -Dzookeeper.log.dir=\"${ZOO_LOG_DIR}\" \
+  494      -Dzookeeper.log.file=\"${ZOO_LOG_FILE}\" -Dzookeeper.root.logger=\"${ZOO_LOG4J_PROP}\" \
+  495      -XX:+HeapDumpOnOutOfMemoryError -XX:OnOutOfMemoryError='kill -9 %p' \
+  496      -cp \"$CLASSPATH\" $JVMFLAGS $ZOOMAIN \"$ZOOCFG\" > \"$_ZOO_DAEMON_OUT\" 2>&1 < /dev/null";     ;; stop);     echo -n "Stopping zookeeper ... ";     if [ ! -f "$ZOOPIDFILE" ];     then       echo "no zookeeper to stop (could not find file $ZOOPIDFILE)";     else       $KILL $(cat "$ZOOPIDFILE");       rm "$ZOOPIDFILE";       sleep 1;       echo STOPPED;     fi;     exit 0;     ;; version);     ZOOMAIN=org.apache.zookeeper.version.VersionInfoMain;     $JAVA -cp "$CLASSPATH" $ZOOMAIN 2> /dev/null;     ;; restart);     shift;     "$0" stop ${@};     sleep 3;     "$0" start ${@};     ;; status)     isSSL="false";     clientPortAddress=`$GREP "^[[:space:]]*clientPortAddress[^[:alpha:]]" "$ZOOCFG" | sed -e 's/.*=//'`;     if ! [ $clientPortAddress ];     then 	      clientPortAddress="localhost";     fi;     clientPort=`$GREP "^[[:space:]]*clientPort[^[:alpha:]]" "$ZOOCFG" | sed -e 's/.*=//'`;     if ! [[ "$clientPort"  =~ ^[0-9]+$ ]];     then       dataDir=`$GREP "^[[:space:]]*dataDir" "$ZOOCFG" | sed -e 's/.*=//'`;       myid=`cat "$dataDir/myid" 2> /dev/null`;       if ! [[ "$myid" =~ ^[0-9]+$ ]] ; then         echo "myid could not be determined, will not able to locate clientPort in the server configs.";       else         clientPortAndAddress=`$GREP "^[[:space:]]*server.$myid=.*;.*" "$ZOOCFG" | sed -e 's/.*=//' | sed -e 's/.*;//'`;         if [ ! "$clientPortAndAddress" ] ; then           echo "Client port not found in static config file. Looking in dynamic config file.";           dynamicConfigFile=`$GREP "^[[:space:]]*dynamicConfigFile" "$ZOOCFG" | sed -e 's/.*=//'`;           clientPortAndAddress=`$GREP "^[[:space:]]*server.$myid=.*;.*" "$dynamicConfigFile" | sed -e 's/.*=//' | sed -e 's/.*;//'`;         fi;         if [ ! "$clientPortAndAddress" ] ; then           echo "Client port not found in the server configs";         else           if [[ "$clientPortAndAddress" =~ ^.*:[0-9]+ ]] ; then             if [[ "$clientPortAndAddress" =~ \[.*\]:[0-9]+ ]] ; then               clientPortAddress=`echo "$clientPortAndAddress" | sed -e 's|\[||' | sed -e 's|\]:.*||'`;             else               clientPortAddress=`echo "$clientPortAndAddress" | sed -e 's/:.*//'`;             fi;           fi;           clientPort=`echo "$clientPortAndAddress" | sed -e 's/.*://'`;         fi;       fi;     fi;     if [ ! "$clientPort" ] ; then       echo "Client port not found. Looking for secureClientPort in the static config.";       secureClientPort=`$GREP "^[[:space:]]*secureClientPort[^[:alpha:]]" "$ZOOCFG" | sed -e 's/.*=//'`;       if [ "$secureClientPort" ] ; then         isSSL="true";         clientPort=$secureClientPort;         clientPortAddress=`$GREP "^[[:space:]]*secureClientPortAddress[^[:alpha:]]" "$ZOOCFG" | sed -e 's/.*=//'`;         if ! [ $clientPortAddress ];         then             clientPortAddress="localhost";         fi;       else         echo "Unable to find either secure or unsecure client port in any configs. Terminating.";         exit 1;       fi;     fi;     echo "Client port found: $clientPort. Client address: $clientPortAddress. Client SSL: $isSSL.";     STAT=`"$JAVA" "-Dzookeeper.log.dir=${ZOO_LOG_DIR}" "-Dzookeeper.root.logger=${ZOO_LOG4J_PROP}" "-Dzookeeper.log.file=${ZOO_LOG_FILE}" \
+  497            -cp "$CLASSPATH" $CLIENT_JVMFLAGS $JVMFLAGS org.apache.zookeeper.client.FourLetterWordMain \
+  498            $clientPortAddress $clientPort srvr $isSSL 2> /dev/null    \
+  499            | $GREP Mode`;     if [ "x$STAT" = "x" ];     then       if [ "$isSSL" = "true" ] ; then         echo " ";         echo "Note: We used secureClientPort ($secureClientPort) to establish connection, but we failed. The 'status'";         echo "  command establishes a client connection to the server to execute diagnostic commands. Please make sure you";         echo "  provided all the Client SSL connection related parameters in the CLIENT_JVMFLAGS environment variable! E.g.:";         echo "  CLIENT_JVMFLAGS=\"-Dzookeeper.clientCnxnSocket=org.apache.zookeeper.ClientCnxnSocketNetty";         echo "  -Dzookeeper.ssl.trustStore.location=/tmp/clienttrust.jks -Dzookeeper.ssl.trustStore.password=password";         echo "  -Dzookeeper.ssl.keyStore.location=/tmp/client.jks -Dzookeeper.ssl.keyStore.password=password";         echo "  -Dzookeeper.client.secure=true\" ./zkServer.sh status";         echo " ";       fi;       echo "Error contacting service. It is probably not running.";       exit 1;     else       echo $STAT;       exit 0;     fi;     ;; *);     echo "Usage: $0 [--config <conf-dir>] {start|start-foreground|stop|version|restart|status|print-cmd}" >&2;  esac
+  500  cd backend/
+  501  npx prisma db push
+  502  npx prisma db push
+  503  npx prisma db push
+  504  npx prisma db push
+  505  docker-compose logs -f
+  506  docker ps
+  507  docker-compose ps
+  508  docker-compose logs mongo
+  509  docker-compose down
+  510  docker-compose up -d
+  511  npx prisma db push
+  512  docker-compose stop
+  513  docker-compose up -d
+  514  docker-compose stop
+  515  docker-compose up 
+  516  docker-compose up -d
+  517  cd ..
+  518  git add .
+  519  git commit -m "--fixed"
+  520  git checkout main
+  521  git merge issue_with_database
+  522  git push origin main
+  523  history
+  524  cd backend/
+  525  npx prisma migrate save --name "middle_name_issue"
+  526  npx prisma migrate create --name "middle_name_issue"
+  527  prisma migrate dev
+  528  npx prisma migrate dev
+  529  npx prisma migrate dev --name "middle_name_issue"
+  530  npx prisma generate
+  531  npm i bcrypt
+  532  npx prisma generate
+  533  npx prisma migrate dev --name "middle_name_issue"
+  534  npx prisma generate
+  535  npx prisma generate
+  536  npx prisma generate --user
+  537  prisma generate --schema=./schema.prisma
+  538  npx prisma generate --schema=./schema.prisma
+  539  npx prisma generate --schema=./prisma/schema.prisma
+  540  npx prisma generate --schema=./prisma/schema.prisma
+  541  npm i --save-dev @types/bcrypt
+  542  npx prisma generate --schema=./prisma/schema.prisma
+  543  npx prisma generate --schema=./prisma/schema.prisma
+  544  npm i jsonwebtoken
+  545  npm i --save-dev @types/jsonwebtoken
+  546  npm i lodlash
+  547  npm i lodash
+  548  npm i --save-dev @types/lodash
+  549  cd ..
+  550  git add .
+  551  git commit -m "user_login & auth"
+  552  git push origin main
+  553  history > text.txt
