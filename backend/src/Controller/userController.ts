@@ -6,27 +6,6 @@ import { sendCookie } from "../Utils/feature";
 import { UploadApiResponse, v2 as cloudinary } from "cloudinary";
 const prisma = new PrismaClient();
 
-export const getRoleType = async (req: Request, res: Response, next: Next) => {
-  try {
-    const roleTypes_ = await prisma.roleType.findMany();
-    if (roleTypes_.length === 0) {
-      // Create RoleTypes if not exist
-      await prisma.roleType.createMany({
-        data: [
-          { role_type: "STUDENT" },
-          { role_type: "BRANCH_ADMIN" },
-          { role_type: "SUPER_ADMIN" },
-        ],
-      });
-    }
-
-    const updatedRoleTypes = await prisma.roleType.findMany();
-    res.status(200).json(updatedRoleTypes);
-  } catch (error) {
-    next(error);
-  }
-};
-
 export const createUser = async (req: Request, res: Response, next: Next) => {
   try {
     const {
@@ -241,3 +220,4 @@ export const login = async (req: Request, res: Response, next: Next) => {
     next(error);
   }
 };
+

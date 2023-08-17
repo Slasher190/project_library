@@ -12,8 +12,70 @@ consumes:
   - multipart/form-data
 
 paths:
+  /getRoleType:
+    get:
+      tags:
+        - Roles
+      summary: Get All Roles
+      description: Get a list of role types.
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    role_type:
+                      type: string
+  /getAllPlans:
+    get:
+      tags:
+        - Plans
+      summary: Get All Plans
+      description: Get a list of role types.
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    role_type:
+                      type: string
+  /getAllMembership:
+    get:
+      tags:
+        - Memberships
+      summary: Get All Membership
+      description: Get a list of role types.
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    role_type:
+                      type: string
   /createUser:
     post:
+      tags:
+        - User
       summary: Create a new user
       description: Registers a new user with provided details
       parameters:
@@ -52,34 +114,7 @@ paths:
       responses:
         201:
           description: User created successfully
-          schema:
-            $ref: "#/definitions/User"
         400:
           description: Bad request
         500:
           description: Internal server error
-definitions:
-  User:
-    type: object
-    properties:
-      id:
-        type: string
-      email:
-        type: string
-      first_name:
-        type: string
-      middle_name:
-        type: string
-      last_name:
-        type: string
-      phone_numbers:
-        type: array
-        items:
-          type: string
-      role_type:
-        type: object
-        properties:
-          id:
-            type: string
-          role_type:
-            type: string

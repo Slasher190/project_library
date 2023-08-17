@@ -13,6 +13,7 @@ import adminRoutes from "./src/Routes/adminRoutes";
 import studentRoutes from "./src/Routes/studentRoutes";
 import branchRoutes from "./src/Routes/branchRoutes";
 import { errorMiddleware } from "./src/middleware/errorHandler";
+import functRoutes from "./src/Routes/functRoutes";
 
 export const app = express();
 const apiDocuments = YAML.load("./api-docs.yaml");
@@ -34,3 +35,4 @@ app.use("/api/v1", libraryRoutes);
 app.use("/api/vi", adminRoutes);
 app.use("/api/v1", studentRoutes);
 app.use("/api/v1", branchRoutes);
+app.use("/api/v1", functRoutes);
