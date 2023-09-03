@@ -268,12 +268,12 @@ paths:
           type: string
           required: true
       responses:
-      201:
-        description: Plan selected successfully
-      400:
-        description: Bad request
-      500:
-        description: Internal server error
+        201:
+          description: Plan selected successfully
+        400:
+          description: Bad request
+        500:
+          description: Internal server error
   /student/purchase:
     post:
       tags:
@@ -287,16 +287,16 @@ paths:
           required: true
         - in: formData
           name: totalAmount
-          type: string
+          type: number
           required: true
         - in: formData
           name: payModeId
           type: string
           required: true
       responses:
-      201:
-        description: Purchase successfully
-      400:
-        description: Bad request
-      500:
-        description: Internal server error
+        201:
+          description: Purchase successfully
+        400:
+          description: Bad request
+        500:
+          description: Internal server error

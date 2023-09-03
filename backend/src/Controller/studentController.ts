@@ -89,7 +89,7 @@ interface PurchaseRequestBody {
   planId: string;
   membershipId: string;
   studentId: string;
-  roleType: string;
+  role: string;
   // payment: string;
 }
 
@@ -102,10 +102,9 @@ export const selectPlan = async (req: Request, res: Response, next: Next) => {
     //   return res.status(400).json({ errors: errors.array() });
     // }
 
-    const { planId, membershipId, roleType }: PurchaseRequestBody = req.body;
+    const { planId, membershipId, role }: PurchaseRequestBody = req.body;
     const studentId = req.body.student.id;
-    console.log(req.body, " ------ student ");
-    if (roleType !== Roles.STUDENT) {
+    if (role !== Roles.STUDENT) {
       return next(
         new ErrorHandler(
           "You are not allowed to register",
@@ -149,7 +148,7 @@ export const selectPlan = async (req: Request, res: Response, next: Next) => {
       purchaseId: purchase.id,
       plan,
       membership,
-      role: roleType,
+      role,
       total: total_price,
       expire: purchase.end_date,
     };
@@ -194,7 +193,8 @@ export const purchase = async (req: Request, res: Response, next: Next) => {
         payment_type: {
           connect: { id: payModeId },
         },
-        amount: totalAmount,
+        amount:
+          typeof totalAmount === "string" ? parseInt(totalAmount) : totalAmount,
       },
     });
     const purchase = await prisma.purchase.upsert({
@@ -202,19 +202,23 @@ export const purchase = async (req: Request, res: Response, next: Next) => {
         id: purchaseId,
       },
       update: {
-        total_price: totalAmount,
+        total_price:
+          typeof totalAmount === "string" ? parseInt(totalAmount) : totalAmount,
         end_date: existingPurchase.end_date, // Use the existing end_date
         payment: {
           connect: { id: newPayment.id },
         },
+        payment_status: "SUCCESSFULL",
       },
       create: {
         id: purchaseId,
-        total_price: totalAmount,
+        total_price:
+          typeof totalAmount === "string" ? parseInt(totalAmount) : totalAmount,
         end_date: existingPurchase.end_date, // Use the existing end_date
         payment: {
           connect: { id: newPayment.id },
         },
+        payment_status: "SUCCESSFULL",
       },
     });
 
@@ -222,6 +226,7 @@ export const purchase = async (req: Request, res: Response, next: Next) => {
     res.status(StatusCodes.OK).json({
       success: true,
       amount: purchase.total_price,
+      paymentId: newPayment.id,
       message: `Your Payement is successful, Thanks for choosing us`,
     });
   } catch (error) {

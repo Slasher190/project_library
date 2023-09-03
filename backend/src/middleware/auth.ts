@@ -2,6 +2,7 @@ import { PrismaClient } from "@prisma/client";
 import ErrorHandler from "./errorHandler";
 import { Request, Response, NextFunction } from "express";
 import jwt from "jsonwebtoken";
+import { ObjectId } from "mongodb";
 // import { ObjectId } from "mongodb";
 
 const prisma = new PrismaClient();
@@ -78,8 +79,6 @@ export const studentCheck = async (
   next: NextFunction
 ) => {
   try {
-    // @ts-ignore
-    console.log(req.user, " ---- ");
     const student = await prisma.student.findUnique({
       // @ts-ignore
       where: { userId: req.user.id },
