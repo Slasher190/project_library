@@ -4,6 +4,7 @@ import ErrorHandler from "../middleware/errorHandler";
 import bcrypt from "bcrypt";
 import { sendCookie } from "../Utils/feature";
 import { UploadApiResponse, v2 as cloudinary } from "cloudinary";
+// import { user } from "express-decorators";
 const prisma = new PrismaClient();
 
 export const createUser = async (req: Request, res: Response, next: Next) => {
@@ -220,4 +221,5 @@ export const login = async (req: Request, res: Response, next: Next) => {
     next(error);
   }
 };
+
 

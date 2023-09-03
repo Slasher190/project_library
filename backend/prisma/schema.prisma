@@ -10,7 +10,7 @@ datasource db {
 
 model Phone {
   id           String         @id @default(auto()) @map("_id") @db.ObjectId
-  phone_number String         @unique
+  phone_number String
   user         User?          @relation(fields: [userId], references: [id])
   userId       String?        @db.ObjectId
   Student      Student[]
@@ -28,20 +28,21 @@ model Avatar {
 }
 
 model User {
-  id            String   @id @default(auto()) @map("_id") @db.ObjectId
-  email         String   @unique
+  id            String    @id @default(auto()) @map("_id") @db.ObjectId
+  email         String    @unique
   first_name    String
   middle_name   String?
   last_name     String
   phone_numbers Phone[] // Array of phones associated with a single user
-  avatar        Avatar   @relation(fields: [avatarId], references: [id])
-  avatarId      String   @db.ObjectId
+  avatar        Avatar    @relation(fields: [avatarId], references: [id])
+  avatarId      String    @db.ObjectId
   password      String
-  role_type     RoleType @relation(fields: [roleTypeId], references: [id])
-  roleTypeId    String   @db.ObjectId
-  createdAt     DateTime @default(now())
-  updatedAt     DateTime @updatedAt
+  role_type     RoleType  @relation(fields: [roleTypeId], references: [id])
+  roleTypeId    String    @db.ObjectId
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
   // Other fields
+  Student       Student[]
 }
 
 model Location {
@@ -61,15 +62,17 @@ model Address {
 }
 
 model Plan {
-  id        String    @id @default(auto()) @map("_id") @db.ObjectId
+  id        String     @id @default(auto()) @map("_id") @db.ObjectId
   plan_name String
-  Student   Student[]
+  price     Int
+  Purchase  Purchase[]
 }
 
 model Membership {
-  id              String    @id @default(auto()) @map("_id") @db.ObjectId
+  id              String     @id @default(auto()) @map("_id") @db.ObjectId
   membership_name String
-  Student         Student[]
+  period          Int
+  Purchase        Purchase[]
 }
 
 model Stream {
@@ -79,11 +82,11 @@ model Stream {
 }
 
 model Seat {
-  id          String    @id @default(auto()) @map("_id") @db.ObjectId
+  id          String     @id @default(auto()) @map("_id") @db.ObjectId
   seat_number Int
   seat_type   String
-  student     Student[]
   Order       Order[]
+  Purchase    Purchase[]
 }
 
 model OrderList {
@@ -109,11 +112,31 @@ model Order {
 }
 
 model Payment {
-  id             String    @id @default(auto()) @map("_id") @db.ObjectId
+  id             String     @id @default(auto()) @map("_id") @db.ObjectId
   transaction_id String
   payement_mode  String
-  timestamp      DateTime  @default(now())
-  Student        Student[]
+  timestamp      DateTime   @default(now())
+  Purchase       Purchase[]
+}
+
+model Purchase {
+  id             String      @id @default(auto()) @map("_id") @db.ObjectId
+  plan           Plan?       @relation(fields: [planId], references: [id])
+  planId         String?     @db.ObjectId
+  membership     Membership? @relation(fields: [membershipId], references: [id])
+  membershipId   String?     @db.ObjectId
+  seat           Seat?       @relation(fields: [seatId], references: [id])
+  seatId         String?     @db.ObjectId
+  payment        Payment?    @relation(fields: [paymentId], references: [id])
+  paymentId      String?     @db.ObjectId
+  Student        Student?    @relation(fields: [studentId], references: [id])
+  studentId      String?     @db.ObjectId
+  start_date     DateTime    @default(now())
+  end_date       DateTime
+  total_price    Int         @default(0)
+  payment_status pStatus     @default(PENDING)
+  createAt       DateTime    @default(now())
+  updateAt       DateTime    @default(now())
 }
 
 model Student {
@@ -121,19 +144,16 @@ model Student {
   guardian_name  String
   guardian_phone Phone?     @relation(fields: [gPhoneId], references: [id])
   gPhoneId       String?    @db.ObjectId
-  plan           Plan       @relation(fields: [planId], references: [id])
-  planId         String     @db.ObjectId
-  membershi_plan Membership @relation(fields: [membershipId], references: [id])
-  membershipId   String     @db.ObjectId
-  stream         Stream     @relation(fields: [streamId], references: [id])
-  streamId       String     @db.ObjectId
+  stream         Stream?    @relation(fields: [streamId], references: [id])
+  streamId       String?    @db.ObjectId
+  user           User       @relation(fields: [userId], references: [id])
+  userId         String     @db.ObjectId
   address        Address    @relation(fields: [addressId], references: [id])
   addressId      String     @db.ObjectId
-  seat           Seat       @relation(fields: [seatId], references: [id])
-  seatId         String     @db.ObjectId
+  purchase       Purchase[]
   orders         Order[]
-  payment        Payment    @relation(fields: [paymentId], references: [id])
-  paymentId      String     @db.ObjectId
+  createAt       DateTime   @default(now())
+  updateAt       DateTime   @default(now())
 }
 
 model BranchSeatInfo {
@@ -188,3 +208,7 @@ model RoleType {
 //   BRANCH_ADMIN
 //   SUPER_ADMIN
 // }
+enum pStatus {
+  PENDING
+  SUCCESSFULL
+}

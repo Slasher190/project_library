@@ -9,17 +9,15 @@ export const getRoleType = async (req: Request, res: Response, next: Next) => {
     const roleTypes_ = await prisma.roleType.findMany();
     if (roleTypes_.length === 0) {
       // Create RoleTypes if not exist
-      await prisma.roleType.createMany({
+      const roles = await prisma.roleType.createMany({
         data: [
           { role_type: "STUDENT" },
           { role_type: "BRANCH_ADMIN" },
           { role_type: "SUPER_ADMIN" },
         ],
       });
-    }
-
-    const updatedRoleTypes = await prisma.roleType.findMany();
-    res.status(200).json({ success: true, updatedRoleTypes });
+      res.status(200).json({ success: true, roles });
+    } else res.status(200).json({ success: true, roleTypes_ });
   } catch (error) {
     next(error);
   }
@@ -30,19 +28,20 @@ export const getAllPlans = async (req: Request, res: Response, next: Next) => {
   try {
     const allPlans = await prisma.plan.findMany();
     if (allPlans.length === 0) {
-      await prisma.plan.createMany({
-        data: [{ plan_name: "HALF DAY" }, { plan_name: "FULL DAY" }],
+      const plans = await prisma.plan.createMany({
+        data: [
+          { plan_name: "HALF DAY", price: 600 },
+          { plan_name: "FULL DAY", price: 1000 },
+        ],
       });
-    }
-    const updatedPlanTypes = await prisma.plan.findMany();
-    res.status(200).json({ success: true, updatedPlanTypes });
+      res.status(200).json({ success: true, plans });
+    } else res.status(200).json({ success: true, allPlans });
   } catch (error) {
     next(error);
   }
 };
 
 // membership
-
 export const getAllMembership = async (
   req: Request,
   res: Response,
@@ -51,17 +50,38 @@ export const getAllMembership = async (
   try {
     const allMembership = await prisma.membership.findMany();
     if (allMembership.length === 0) {
-      await prisma.membership.createMany({
+      const membership = await prisma.membership.createMany({
         data: [
-          { membership_name: "1" },
-          { membership_name: "3" },
-          { membership_name: "6" },
-          { membership_name: "12" },
+          { membership_name: "silver", period: 1 },
+          { membership_name: "gold", period: 3 },
+          { membership_name: "platinum", period: 6 },
+          { membership_name: "diamond", period: 12 },
         ],
       });
-    }
-    const updatedMembership = await prisma.membership.findMany();
-    res.status(200).json({ success: true, updatedMembership });
+      res.status(200).json({ success: true, membership });
+    } else res.status(200).json({ success: true, allMembership });
+  } catch (error) {
+    next(error);
+  }
+};
+
+// stream
+export const getAllStream = async (req: Request, res: Response, next: Next) => {
+  try {
+    const allStream = await prisma.stream.findMany();
+    if (allStream.length === 0) {
+      const stream = await prisma.stream.createMany({
+        data: [
+          { stream_name: "UPSC" },
+          { stream_name: "JEE-Main/Advance" },
+          { stream_name: "NEET" },
+          { stream_name: "CA" },
+          { stream_name: "SSC" },
+          { stream_name: "Other" },
+        ],
+      });
+      res.status(200).json({ success: true, stream });
+    } else res.status(200).json({ success: true, allStream });
   } catch (error) {
     next(error);
   }

@@ -72,6 +72,26 @@ paths:
                       type: string
                     role_type:
                       type: string
+  /getAllStream:
+    get:
+      tags:
+        - Stream
+      summary: Get All Streams
+      description: Get a list of role types.
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    role_type:
+                      type: string
   /createUser:
     post:
       tags:
@@ -118,3 +138,98 @@ paths:
           description: Bad request
         500:
           description: Internal server error
+  /login:
+    post:
+      tags:
+        - User
+      summary: User login
+      description: Authenticate user with email and password.
+      consumes:
+        - multipart/form-data
+      produces:
+        - application/json
+      parameters:
+        - in: formData
+          name: email
+          type: string
+          required: true
+          description: User's email
+        - in: formData
+          name: password
+          type: string
+          format: password
+          required: true
+          description: User's password
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Bad Request
+        "500":
+          description: Internal Server Error
+  /registration/student: # Add this endpoint
+    post:
+      tags:
+        - Registration
+      summary: Register a new student
+      description: Registers a new student with provided details
+      parameters:
+        - in: formData
+          name: guardian_name
+          type: string
+          required: true
+
+        - in: formData
+          name: guardian_phone
+          type: string
+          required: true
+
+        - in: formData
+          name: house_flat
+          type: string
+          required: true
+
+        - in: formData
+          name: village_colony
+          type: string
+          required: true
+
+        - in: formData
+          name: city
+          type: string
+          required: true
+
+        # - in: formData
+        #   name: planId
+        #   type: string
+        # required: true
+        # - in: formData
+        #   name: membershipId
+        #   type: string
+        # required: true
+        - in: formData
+          name: streamId
+          type: string
+          # required: true
+
+        # - in: formData
+        #   name: seatId
+        #   type: string
+        # required: true
+        # - in: formData
+        #   name: userId
+        #   type: string
+        # required: true
+        # - in: formData
+        #   name: paymentId
+        #   type: string
+        # required: true
+        # ... other parameters ...
+      responses:
+        201:
+          description: Student registered successfully
+        400:
+          description: Bad request
+        500:
+          description: Internal server error
+  
