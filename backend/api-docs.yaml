@@ -92,6 +92,26 @@ paths:
                       type: string
                     role_type:
                       type: string
+  /getAllPaymentMethod:
+    get:
+      tags:
+        - Payment Mode
+      summary: Get All Payment Mode
+      description: Get a list of payment modes.
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    role_type:
+                      type: string
   /createUser:
     post:
       tags:
@@ -232,4 +252,51 @@ paths:
           description: Bad request
         500:
           description: Internal server error
-  
+  /student/selectPlan:
+    post:
+      tags:
+        - Student
+      summary: Selecting the plan
+      description: To select the plan and Memberships
+      parameters:
+        - in: formData
+          name: planId
+          type: string
+          required: true
+        - in: formData
+          name: membershipId
+          type: string
+          required: true
+      responses:
+      201:
+        description: Plan selected successfully
+      400:
+        description: Bad request
+      500:
+        description: Internal server error
+  /student/purchase:
+    post:
+      tags:
+        - Student
+      summary: Purchasing Process
+      description: To purchase the amount
+      parameters:
+        - in: formData
+          name: purchaseId
+          type: string
+          required: true
+        - in: formData
+          name: totalAmount
+          type: string
+          required: true
+        - in: formData
+          name: payModeId
+          type: string
+          required: true
+      responses:
+      201:
+        description: Purchase successfully
+      400:
+        description: Bad request
+      500:
+        description: Internal server error

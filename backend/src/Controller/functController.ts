@@ -86,3 +86,27 @@ export const getAllStream = async (req: Request, res: Response, next: Next) => {
     next(error);
   }
 };
+
+// get all payment method
+export const getAllPaymentMethod = async (
+  req: Request,
+  res: Response,
+  next: Next
+) => {
+  try {
+    const allMode = await prisma.paymentMode.findMany();
+    if (allMode.length === 0) {
+      const mode = await prisma.paymentMode.createMany({
+        data: [
+          { payment_type: "CREDIT_CARD" },
+          { payment_type: "DEBIT_CARD" },
+          { payment_type: "CASH" },
+          { payment_type: "UPI" },
+        ],
+      });
+      res.status(200).json({ success: true, mode });
+    } else res.status(200).json({ success: true, allMode });
+  } catch (error) {
+    next(error);
+  }
+};

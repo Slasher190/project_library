@@ -7,6 +7,7 @@ import {
   calculateTotalPrice,
 } from "../../constants/functionalities";
 import { Roles } from "../../constants/roles";
+// import { update } from "lodash";
 // import { validationResult } from 'express-validator';
 // import bcrypt from "bcrypt";
 // import { sendCookie } from "../Utils/feature";
@@ -45,8 +46,7 @@ export const registerStudent = async (
       village_colony,
       city,
       streamId,
-    }: // other properties as needed
-    Student = req.body;
+    }: Student = req.body;
 
     // Create the student record using Prisma
     const new_address_ = await prisma.address.create({
@@ -89,22 +89,23 @@ interface PurchaseRequestBody {
   planId: string;
   membershipId: string;
   studentId: string;
-  role_type: string;
+  roleType: string;
+  // payment: string;
 }
 
-export const purchasePlan = async (req: Request, res: Response, next: Next) => {
+export const selectPlan = async (req: Request, res: Response, next: Next) => {
   try {
-    // we will  have to generate token for the time period of plans token expire then dead every thing 
+    // we will  have to generate token for the time period of plans token expire then dead every thing
     // Input validation using express-validator
     // const errors = validationResult(req);
     // if (!errors.isEmpty()) {
     //   return res.status(400).json({ errors: errors.array() });
     // }
 
-    const { planId, membershipId, studentId, role_type }: PurchaseRequestBody =
-      req.body;
-
-    if (role_type !== Roles.STUDENT) {
+    const { planId, membershipId, roleType }: PurchaseRequestBody = req.body;
+    const studentId = req.body.student.id;
+    console.log(req.body, " ------ student ");
+    if (roleType !== Roles.STUDENT) {
       return next(
         new ErrorHandler(
           "You are not allowed to register",
@@ -144,11 +145,84 @@ export const purchasePlan = async (req: Request, res: Response, next: Next) => {
         end_date: calculateEndDate(membership.period),
       },
     });
-
+    const newPurchase = {
+      purchaseId: purchase.id,
+      plan,
+      membership,
+      role: roleType,
+      total: total_price,
+      expire: purchase.end_date,
+    };
     res.status(StatusCodes.OK).json({
       success: true,
-      purchase,
+      newPurchase,
       message: `Your prchase for this plan is ${purchase.payment_status}`,
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
+// payment
+interface paymentGateway {
+  purchaseId: string;
+  totalAmount: number;
+  payModeId: string;
+}
+
+export const purchase = async (req: Request, res: Response, next: Next) => {
+  try {
+    const { purchaseId, totalAmount, payModeId }: paymentGateway = req.body;
+    const existingPurchase = await prisma.purchase.findUnique({
+      where: {
+        id: purchaseId,
+      },
+    });
+
+    if (!existingPurchase) {
+      // Handle the case where the Purchase record doesn't exist
+      // You may want to return an error response or handle it accordingly.
+      return res.status(404).json({ error: "Purchase not found" });
+    }
+
+    // Use the existing end_date value in the update
+    // const payMode = await prisma.paymentmode.findUnique({
+    //   where : {id : payModeId},
+    // })
+    const newPayment = await prisma.payment.create({
+      data: {
+        payment_type: {
+          connect: { id: payModeId },
+        },
+        amount: totalAmount,
+      },
+    });
+    const purchase = await prisma.purchase.upsert({
+      where: {
+        id: purchaseId,
+      },
+      update: {
+        total_price: totalAmount,
+        end_date: existingPurchase.end_date, // Use the existing end_date
+        payment: {
+          connect: { id: newPayment.id },
+        },
+      },
+      create: {
+        id: purchaseId,
+        total_price: totalAmount,
+        end_date: existingPurchase.end_date, // Use the existing end_date
+        payment: {
+          connect: { id: newPayment.id },
+        },
+      },
+    });
+
+    // const
+    res.status(StatusCodes.OK).json({
+      success: true,
+      amount: purchase.total_price,
+      message: `Your Payement is successful, Thanks for choosing us`,
     });
   } catch (error) {
     next(error);

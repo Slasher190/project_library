@@ -71,3 +71,22 @@ export const assignUserRole = async (
     next(error);
   }
 };
+
+export const studentCheck = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  try {
+    // @ts-ignore
+    console.log(req.user, " ---- ");
+    const student = await prisma.student.findUnique({
+      // @ts-ignore
+      where: { userId: req.user.id },
+    });
+    req.body.student = student;
+    next();
+  } catch (error) {
+    next(error);
+  }
+};

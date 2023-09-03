@@ -111,11 +111,19 @@ model Order {
   createdAt DateTime    @default(now())
 }
 
+model PaymentMode {
+  id           String    @id @default(auto()) @map("_id") @db.ObjectId
+  payment_type String
+  Payment      Payment[]
+}
+
 model Payment {
-  id             String     @id @default(auto()) @map("_id") @db.ObjectId
-  transaction_id String
-  payement_mode  String
-  timestamp      DateTime   @default(now())
+  id             String      @id @default(auto()) @map("_id") @db.ObjectId
+  transaction_id String?
+  amount         Int
+  timestamp      DateTime    @default(now())
+  payment_type   PaymentMode @relation(fields: [paymentModeId], references: [id])
+  paymentModeId  String      @db.ObjectId
   Purchase       Purchase[]
 }
 
@@ -147,7 +155,7 @@ model Student {
   stream         Stream?    @relation(fields: [streamId], references: [id])
   streamId       String?    @db.ObjectId
   user           User       @relation(fields: [userId], references: [id])
-  userId         String     @db.ObjectId
+  userId         String     @unique @db.ObjectId
   address        Address    @relation(fields: [addressId], references: [id])
   addressId      String     @db.ObjectId
   purchase       Purchase[]
@@ -211,4 +219,11 @@ model RoleType {
 enum pStatus {
   PENDING
   SUCCESSFULL
+}
+
+enum paymentMode {
+  CREDIT_CARD
+  DEBIT_CARD
+  CASH
+  UPI
 }
